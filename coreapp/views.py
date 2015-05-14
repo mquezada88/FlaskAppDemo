@@ -1,3 +1,5 @@
+from coreapp import app
+
 @app.route('/')
 def index():
     page = """
